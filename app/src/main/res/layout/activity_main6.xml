@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity6"
+    android:background="@drawable/studback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/imagee">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="33dp"
+            android:text="  TEACHER REGISTRATION"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            ></TextView>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:hint="ENTER EMAIL"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:drawablePadding="8dp"
+        android:drawableLeft="@drawable/email"
+        ></EditText>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:hint="ENTER USERNAME"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:drawablePadding="8dp"
+        android:drawableLeft="@drawable/name"
+        ></EditText>
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:hint="ENTER PASSWORD"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:drawablePadding="8dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/pas"
+        ></EditText>
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:hint="CONFIRM PASSWORD"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:drawablePadding="8dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/pascon"
+        ></EditText>
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:hint="SCHOOL NAME"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:drawablePadding="8dp"
+        android:inputType="text"
+        android:drawableLeft="@drawable/schoolname"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:hint="SIGNUP"
+        android:background="#2000"
+        android:textColorHint="@color/black"></Button>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:hint="LOGIN"
+        android:background="#2000"
+        android:textColorHint="@color/black"></Button>
+</LinearLayout>

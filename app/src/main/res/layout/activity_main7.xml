@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:background="@drawable/studdatabackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/studdatalogo">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="cursive"
+            android:text="HELLO USER"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:hint="SELECT STD"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"></TextView>
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#20000000"
+        ></Spinner>
+
+    <TextView
+        android:id="@+id/tet2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="SELECT MEDIUM"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"></TextView>
+
+
+    <Spinner
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#20000000"
+        android:textColor="@color/white"></Spinner>
+
+
+    <TextView
+        android:id="@+id/tet3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="ENTER ROLL NO"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"></TextView>
+
+
+    <EditText
+        android:id="@+id/s3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#20000000"
+        android:textColor="@color/white"></EditText>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:background="#20000000"
+        android:hint="Submit"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"></Button>
+
+
+</LinearLayout>

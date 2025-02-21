@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity23"
+    android:orientation="vertical"
+    android:background="@drawable/viewbackimage">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="VIEW REPORTS"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColorHint="@color/black"
+        ></TextView>
+    <ListView
+        android:id="@+id/listn"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="30dp"
+        android:scrollbars="vertical"
+        ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/dashboardback"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:gravity="center"
+                android:text=" DASHBOARD"
+                android:textSize="40sp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:hint="   Hello User "
+                android:textColorHint="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="75dp"
+                android:background="@drawable/dashboard1" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="200dp">
+
+            <ImageButton
+                android:id="@+id/attandance"
+                android:layout_width="100dp"
+                android:layout_height="185dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:background="@drawable/dashboard2" />
+
+            <ImageButton
+                android:id="@+id/Notice"
+                android:layout_width="100dp"
+                android:layout_height="175dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/dashboard3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cgpa"
+                android:layout_width="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="155dp"
+                android:layout_weight="2"
+                android:background="@drawable/dashboards"
+                />
+
+            <ImageButton
+                android:id="@+id/activities"
+                android:layout_width="100dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="150dp"
+                android:layout_weight="2"
+                android:background="@drawable/dashboard51"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/rep"
+                android:layout_width="187dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/reports"
+
+                ></ImageButton>
+
+            <ImageButton
+                android:id="@+id/abouts"
+                android:layout_width="157dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/dashboard7" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sendreportbackimage">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SEND REPORTS"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:hint=" ENTER DATE"
+        android:background="#20000000"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:inputType="date"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/black"
+        android:hint=" ROLL NO"
+        android:gravity="top"
+        android:background="#20000000"
+        ></EditText>
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:hint=" STD"
+        android:gravity="top"
+        android:background="#20000000"
+        ></EditText>
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/black"
+        android:hint=" ENTER MARKS"
+        android:gravity="top"
+        android:background="#20000000"
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:text="Send"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:background="#20000000"></Button>
+
+</LinearLayout>

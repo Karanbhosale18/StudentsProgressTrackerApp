@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/top_background"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_span="2"
+                android:text="TEACHER DASHBOARD"
+                android:layout_gravity="center"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:textStyle="bold|italic"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Hello User "
+                android:textStyle="bold|italic"
+                android:layout_marginTop="40dp"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="110dp"
+                android:background="@drawable/teacher_icon2" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/horizL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/top_view"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/ib1"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:background="@drawable/view_attendance"></ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="MARK ATTENDANCE"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/ib2"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:background="@drawable/send_notice"></ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="     SEND NOTICE"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/horizL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/horizL"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/ib3"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:background="@drawable/sendreports"></ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="     SEND REPORTS"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/horizL"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/teacher_icon"></LinearLayout>
+
+</RelativeLayout>

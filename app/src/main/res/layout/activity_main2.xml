@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:text="         LOGIN HERE"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_span="2"
+            android:hint="USERNAME ID"
+            android:textSize="25dp"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/userid"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:inputType="text"
+            android:textColorHint="@color/white"
+            android:background="#20000000"
+            >
+        </EditText>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_span="2"
+            android:hint="PASSWORD"
+            android:textSize="25dp"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/password"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:background="#20000000"
+            >
+
+        </EditText>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_span="2"
+        android:background="#20000000"
+        android:hint="LOGIN"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        ></Button>
+
+    <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="CREATE NEW ACCOUNT"
+            android:textColorHint="@color/white"
+            android:background="#20000000"
+            android:textSize="20dp"></Button>
+
+</LinearLayout>

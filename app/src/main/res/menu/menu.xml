@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="DASHBOARD"
+        ></item>
+    <item
+        android:id="@+id/item2"
+        android:title="VIEW ATTENDANCE"
+        ></item>
+    <item
+        android:id="@+id/item3"
+        android:title="NOTICES"
+        ></item>
+    <item
+        android:id="@+id/item4"
+        android:title="CALCULATE PERCENTAGE"
+        ></item>
+    <item
+        android:id="@+id/item5"
+        android:title="CALENDAR"
+        ></item>
+    <item
+        android:id="@+id/item6"
+        android:title="ABOUT US"
+        ></item>
+    <item
+        android:id="@+id/item7"
+        android:title="EXIT"
+        ></item>
+</menu>
